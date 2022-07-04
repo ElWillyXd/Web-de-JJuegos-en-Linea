@@ -1,0 +1,38 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #240936;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* ancho de toda la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}
+
+.contenido, a{
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+}
+

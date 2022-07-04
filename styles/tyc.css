@@ -1,0 +1,99 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #240936;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* ancho de toda la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}
+
+#header {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(60, 30, 108);
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    width: 90%;
+}
+
+li a {
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: #ffd104 2px solid;
+}
+
+h3{
+   margin-top: 12px;
+   color: #ffffff;
+   text-align: center;
+}
+
+.contenido{
+    padding-top: 12px;
+    margin-top: 12px;
+    width: 90%;
+    height: 1000px;
+    background-color: #3c1e6e;
+    border-radius: 5px;
+}
+
+.mensaje{
+    margin-bottom: 12px;
+}
+
+.texto{
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.texto-p{
+    width: 98%;
+    color: #ffffff;
+}
+
+footer{
+
+    margin-top: 12px;
+    width: 100%;
+    height: 60px;
+    background-color:#3c1e6e;
+    display: flex;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}

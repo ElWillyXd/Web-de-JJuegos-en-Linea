@@ -1,0 +1,253 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #240936;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* ancho de toda la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}
+
+#header {
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(60, 30, 108);
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+}
+
+li a {
+    margin: 15px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li a:hover {
+    border-bottom: rgb(255, 209, 4) 2px solid;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    background-color: #240936;
+}
+
+.juegos{
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.img-juego{
+    border-radius: 5px;
+	border: 1px #240936 solid;
+	background-color: #3c1e6e;
+}
+
+.img-juego:hover{
+	border: 1px rgb(255, 209, 4) solid;
+}	
+
+.link-juegos{
+    margin-right: 1px;
+}
+
+h5{
+    margin: 15px;
+    color: #f0f8ff;
+    margin-left: 15px;  
+}
+
+.recomendados{
+    margin-top: 10px;
+}
+
+.paneljuego1{
+    display: flex;
+    gap: 3px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    height: 230px;
+	width: 98%;
+	overflow: auto;
+}
+
+.paneljuego1::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    
+    /* ancho de toda la barra de desplazamiento */
+}
+
+.paneljuego1::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+.paneljuego1::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}
+
+.paneljuego1 img{
+    flex-grow: 1;
+    margin-left: 8px;
+    width: 372px;
+}
+
+.paneljuegos{
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+    display: flex;
+    height: 100%;
+    width: 98%;
+    overflow: auto;
+}
+
+.paneljuegos img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-grow: 1;
+    width: 186px;
+}
+
+
+
+.link-vermas{
+    text-decoration: none;
+    color: rgb(6, 178, 190);
+}
+
+.textolomejor{
+    margin-top: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.textolomejorp{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#lomejor{
+    display: flex;
+    gap: 3px;
+    width: 90%;
+    
+    text-align: center;
+}
+
+.lomejorimg{
+    margin-bottom: 40px;
+    flex-grow: 1;
+    border-radius: 50%;  
+    border: 1px #240936 solid;
+}
+
+.lomejorimg:hover{
+    border: 1px rgb(255, 209, 4) solid;
+}
+
+.paneltextofinal{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #3c1e6e;
+    color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.paneltextofinal h5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    color: #f8f8f8;
+}
+
+.texto-final{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 12px;
+    width: 100%;
+    height: 60px;
+    background-color: #3c1e6e;
+    display: flex;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.adsterra{
+    width: 95%;
+    height: 92px;
+    background-color: rgb(60, 30, 108);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+.paneljuegos::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+
+    /* ancho de toda la barra de desplazamiento */
+}
+
+.paneljuegos::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+.paneljuegos::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}

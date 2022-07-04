@@ -1,0 +1,165 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #240936;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* ancho de toda la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+    background: 240936;
+    /* color del área de seguimiento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3c1e6e;
+    /* color del pulgar de desplazamiento */
+    border-radius: 20px;
+    /* redondez del pulgar de desplazamiento */
+    border: 1px solid #240936;
+    /* cReata relleno alrededor del pulgar de desplazamiento */
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color: #3c1e6e;
+    display: flex;
+}
+
+input {
+    width: 80px;
+    height: 58px;
+    background-color: #3c1e6e;
+    color: #f0f8ff;
+    border: none;
+}
+
+input:hover {
+    border-bottom: 2px chocolate solid;
+}
+
+.cuerpo {
+    width: 100%;
+    height: 100%;
+    background-color: #240936;
+}
+
+.reproductor{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    float: left;
+    width: 69%;
+    height: 530px;
+    background-color: #3c1e6e;
+}
+
+.barra-lateral1{
+    margin-top: 15px;
+    margin-right: 30px;
+    float: right;
+    width: 26%;
+    height: 50px;
+    background-color: #3c1e6e;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sharethis-inline-share-buttons{
+    margin-top: 10px;
+}
+
+.barra-lateral{
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+    width: 26%;
+    height: 670px;
+    background-color: #3c1e6e;
+    border-radius: 5px;
+}
+
+#ads1{
+    margin-right: 30px;
+    text-align: center;
+    float: right;
+    width: 26%;
+    height: 300px;
+    color: rgb(252, 252, 252);
+    border-radius: 5px;
+}
+
+.lugarads1{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.barra-inferior{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    float: left;
+    width: 69%;
+    height: 530px;
+    background-color: #3c1e6e;
+}
+
+.nombre-juego{
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #ffffff;
+}
+
+.descripcion-juego{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #eeeeee;
+}
+
+.ReactionButtons{
+    margin-top: 30px;
+    margin-left: 25px;
+    float: left;
+    color: #ffffff;
+}
+
+.contendeorads2{
+    margin-top: 15px;
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+#ads2{
+    
+    margin-right: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    margin-top: 12px;
+    width: 100%;
+    height: 60px;
+    background-color: #3c1e6e;
+    display: flex;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}

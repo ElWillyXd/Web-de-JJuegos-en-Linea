@@ -1,2 +1,2 @@
-# Web-de-JJuegos-en-Linea
+# Web-de-Juegos-en-Linea
 LatamGamer es una plataforma de juegos para navegador web donde encontrarás los mejores juegos en línea gratis. Todos nuestros juegos funcionan en el navegador y se pueden jugar al instante, sin descargas ni instalaciones. Puedes jugar en LatamGamer desde cualquier dispositivo, incluyendo portátiles, smartphones y tabletas. Esto significa que, tanto si estás en casa como en la escuela o el trabajo, ¡puedes empezar a jugar rápida y fácilmente! Ya sea en modo para un jugador, con un amigo o con gente de todo el mundo en modo multijugador.
